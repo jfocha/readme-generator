@@ -52,7 +52,7 @@ function renderLicenseSection(license) {
     return '';
   } else {
     const licenseURL = [
-      "This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. <br /> This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details. <br /> You should have received a copy of the GNU Affero General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.",
+      "This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.  <br /> This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.  <br /> You should have received a copy of the GNU Affero General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.",
       'https://choosealicense.com/licenses/gpl-3.0/',
       'https://choosealicense.com/licenses/lgpl-3.0/',
       'https://choosealicense.com/licenses/mpl-2.0/',
@@ -118,7 +118,7 @@ function generateMarkdown(data) {
   
   [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/)',
 
-  
+
   ## Tests
   
   ${data.test}
@@ -135,11 +135,11 @@ function generateMarkdown(data) {
   
   Copyright (c) ${new Date().getFullYear()} by ${data.name}
 
-  License: ${renderLicenseLink(data.license)}
-  ---
+  This application license is covered under ${renderLicenseLink(data.license)}
+  
   ${renderLicenseSection(data.license)}
   
-  
+  ---
 
   
 `;
