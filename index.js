@@ -2,7 +2,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown.js');
-// const { writeFile, copyFile } = require('./utils/generateMarkdown.js');
 
 
 // TODO: Create an array of questions for user input
@@ -160,11 +159,11 @@ function init() {
             type: 'input',
             name: 'contributing',
             message: contributingQ,
+            default: 'Default: [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/)',
             // when: ({ confirmContributing }) => {
             //     if (confirmContributing) {
             //         return true;
             //     } else {
-            //         contributing = '[Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/)'
             //         return false;
             //     }
             // }
@@ -204,7 +203,7 @@ function init() {
         }
     ]).then((answers) => {
         // Use user feedback for... whatever!!
-        writeToFile('.README.md', generateMarkdown(answers))
+        writeToFile('README.md', generateMarkdown(answers))
       })
       .catch((error) => {
         if (error.isTtyError) {
