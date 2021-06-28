@@ -1,6 +1,6 @@
 # README Generator
 
-  ![badge](https://img.shields.io/badge/license-MIT%20License-green)
+  ![badge](https://img.shields.io/badge/license-GNU%20AGPLv3-green)
 
   ## Description 
   
@@ -9,7 +9,6 @@
 
   ## Table of Contents
   
-
   * [Installation](#installation)
   * [Usage](#usage)
   * [Contributing](#Contributing)
@@ -30,8 +29,10 @@
   
   ## Contributing
 
-  [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/)
   
+  
+  [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/)',
+
 
   ## Tests
   
@@ -47,8 +48,12 @@
 
   ## License
   
-  The last section of a good README is a license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, use [https://choosealicense.com/](https://choosealicense.com/)
-  
-  
+  Copyright (c) 2021 by Joseph Focha
+
+  License: [GNU AGPLv3](https://choosealicense.com/licenses/agpl-3.0/)
   ---
+  This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. <br /> This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details. <br /> You should have received a copy of the GNU Affero General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
+  
+  
+
   

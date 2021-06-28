@@ -159,7 +159,7 @@ function init() {
             type: 'input',
             name: 'contributing',
             message: contributingQ,
-            default: 'Default: [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/)',
+            // default: 'Default: [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/)',
             // when: ({ confirmContributing }) => {
             //     if (confirmContributing) {
             //         return true;
