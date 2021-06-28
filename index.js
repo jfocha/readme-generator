@@ -95,78 +95,78 @@ function init() {
                 }
             }
         },
-        {
-            type: 'confirm',
-            name: 'confirmInstallation',
-            message: confirmInstallationQ,
-            default: false
-        },
+        // {
+        //     type: 'confirm',
+        //     name: 'confirmInstallation',
+        //     message: confirmInstallationQ,
+        //     default: false
+        // },
         {
             type: 'input',
             name: 'installation',
             message: installationQ,
-            when: ({ confirmInstallation }) => {
-                if (confirmInstallation) {
-                    return true;
-                } else {
-                    return false;
-                }
-            }
+            // when: ({ confirmInstallation }) => {
+            //     if (confirmInstallation) {
+            //         return true;
+            //     } else {
+            //         return false;
+            //     }
+            // }
         },
-        {
-            type: 'confirm',
-            name: 'confirmUsage',
-            message: confirmUsageQ,
-            default: false
-        },
+        // {
+        //     type: 'confirm',
+        //     name: 'confirmUsage',
+        //     message: confirmUsageQ,
+        //     default: false
+        // },
         {
             type: 'input',
             name: 'usage',
             message: usageQ,
-            when: ({ confirmUsage }) => {
-                if (confirmUsage) {
-                    return true;
-                } else {
-                    return false;
-                }
-            }
+            // when: ({ confirmUsage }) => {
+            //     if (confirmUsage) {
+            //         return true;
+            //     } else {
+            //         return false;
+            //     }
+            // }
         },
-        {
-            type: 'confirm',
-            name: 'confirmContributing',
-            message: confirmContributingQ,
-            default: false
-        },
+        // {
+        //     type: 'confirm',
+        //     name: 'confirmContributing',
+        //     message: confirmContributingQ,
+        //     default: false
+        // },
         {
             type: 'input',
             name: 'contributing',
             message: contributingQ,
-            when: ({ confirmContributing }) => {
-                if (confirmContributing) {
-                    return true;
-                } else {
-                    contributing = '[Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/)'
-                    return false;
-                }
-            }
+            // when: ({ confirmContributing }) => {
+            //     if (confirmContributing) {
+            //         return true;
+            //     } else {
+            //         contributing = '[Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/)'
+            //         return false;
+            //     }
+            // }
         },
-        {
-            type: 'confirm',
-            name: 'confirmTest',
-            message: confirmTestQ,
-            default: false
-        },
+        // {
+        //     type: 'confirm',
+        //     name: 'confirmTest',
+        //     message: confirmTestQ,
+        //     default: false
+        // },
         {
             type: 'input',
             name: 'test',
             message: testQ,
-            when: ({ confirmTest }) => {
-                if (confirmTest) {
-                    return true;
-                } else {
-                    return false;
-                }
-            }
+            // when: ({ confirmTest }) => {
+            //     if (confirmTest) {
+            //         return true;
+            //     } else {
+            //         return false;
+            //     }
+            // }
         },
         {
             type: 'list',
@@ -182,13 +182,6 @@ function init() {
                 'Boost Software License 1.0',
                 'The Unlicense'
             ],
-            when: ({ confirmLicense }) => {
-                if (confirmLicense) {
-                    return true;
-                } else {                    
-                    return false;
-                }
-            }
         }
     ]);
 }
