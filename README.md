@@ -4,7 +4,7 @@
 
   ## Description 
   
-  It makes README.md files
+  It makes README.md files from the terminal from user input. Thus automatically adding standard boiler plate items like licensing inforamtion and eliminating the need to format new README.md files.
   
 
   ## Table of Contents
@@ -19,24 +19,24 @@
   
   ## Installation
   
-  First, clone the code. Second, initialize npm. Then, install npm inquirer.
+  First, be sure to have node.js installed. Second, clone the code in your directory of choice by typing `git clone git@github.com:jfocha/readme-generator.git` in terminal. Next, change the working directory by typing `cd readme-generator`. Then, type `install npm inquirer` in the terminal. 
   
   
   ## Usage 
   
-  Run it in terminal with "node index"
+  Run the application in terminal with `node index`. Answer the prompts to create your README.md file.
   
   
   ## Contributing
 
-  To contribute <br /> clone and code.
+  Just fork it. <br /> 1. Fork the original repository to your own repository <br /> 2. Clone it to your local <br /> 3. Contribute to it <br /> 4. Push it to your remote repo <br /> 5. Send a PR to the main repo <br /> 6. If the owner of the repo is okay with your contribution they will merge your changes with the original repository.
   
-  [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/)',
+  [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/)
 
 
   ## Tests
   
-  Make a test.
+  After installing, run the app and enter your own input to test.
 
 
   ## Questions

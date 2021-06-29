@@ -14,7 +14,7 @@ const questions = [
     'Would you like to enter installation instructions?', // Installation confirmation
     'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.',   // Installation
     'Would you like to enter a Usage section?',     // Usage confirm
-    'Provide instructions and examples for use. Include screenshots as needed.', // Usage
+    'Provide instructions and examples for use. Include screenshots as needed. To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax: ![alt text](assets/images/screenshot.png)', // Usage
     'Would you like to write your own Contributing section? Default is the Contributor Covenant v2.0', // Contributing confirmation
     'Please add guidelines for how to contribute:', // Contributing
     'Would you like to go the extra mile and write tests for your application?', // Testing confirm
